@@ -22,7 +22,7 @@ public class UserService {
     }
 
     public User findUserbyUsername(String username){
-        return userRepository.findByusername(username);
+        return userRepository.findByUsername(username);
     }
 
     public void deleteUserbyId(ObjectId id){
